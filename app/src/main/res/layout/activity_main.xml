@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:id="@+id/center_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <!-- Icon Bulat -->
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/person_add"
+            android:background="@drawable/circle_bg"
+            android:scaleType="centerInside"
+            android:padding="20dp" />
+
+        <!-- Input Nama -->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Name"
+            android:background="@drawable/rounded_edittext"
+            android:textColorHint="#B0B0B0"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Input Palindrome -->
+        <EditText
+            android:id="@+id/et_palindrome"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Palindrome"
+            android:background="@drawable/rounded_edittext"
+            android:textColorHint="#B0B0B0"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Tombol CHECK -->
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="CHECK"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Tombol NEXT -->
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="NEXT"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button" />
+
+    </LinearLayout>
+</RelativeLayout>
