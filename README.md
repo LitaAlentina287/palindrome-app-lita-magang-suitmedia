@@ -1,7 +1,7 @@
 # Suitmedia Internship Test App - Lita
 
 ## Documentation  
-You can access all screenshots and the APK file via the following Google Drive link:  
+You can access all screenshots, the APK file, and the project ZIP file via the following Google Drive link:    
 **https://drive.google.com/drive/folders/1RfvHo9XMvJv_w2IoAsON5efWkteHsArk?usp=drive_link**
 
 ---
