@@ -69,12 +69,16 @@ This is an Android application developed as part of the **Suitmedia Internship T
 
 ## Technologies Used
 
-- **Language:** Kotlin  
-- **UI Design:** XML Layouts  
-- **Networking:** Retrofit  
-- **Image Loading:** Glide  
-- **Architecture:** Simple MVVM pattern  
-- **SDK Target:** 21 – 34  
+| Feature         | Stack Used                |
+|-----------------|---------------------------|
+| Language        | Kotlin                    |
+| UI Design       | Android XML Layouts       |
+| Networking      | Retrofit (REST API)       |
+| Image Handling  | Glide                     |
+| Architecture    | Simple MVVM Pattern       |
+| Min SDK         | 21                        |
+| Target SDK      | 34                        |
+
 
 ---
 
